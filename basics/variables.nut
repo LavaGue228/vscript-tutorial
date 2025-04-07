@@ -11,7 +11,7 @@ using "<-", preferably outside of any function.
 
 a <- 1 //int type (number)
 b <- "Hello World" //str type (text)
-c <- False //bool type (true/false)
+c <- false //bool type (true/false)
 d <- null //null type (nothing; can be written freely)
 e <- ["text1", "text2", "text3] //array type (list of items)
 
