@@ -23,7 +23,8 @@ function calculateRectangle(width, height) {
         height = height
     };
 }
-//        This code calculates perimeter and area of a certain rectangle.
+//        This code calculates perimeter and area
+// of a certain rectangle.
 
 /*
         To run the VScript code,
