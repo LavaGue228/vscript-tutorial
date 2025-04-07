@@ -3,13 +3,13 @@
 //-----------------------------------
 
 /*
-        Add an env_sprite entity to your map.
-        Put it somewhere you can clearly see.
-        Name it "sprite1".
-        Then compile the map.
+    Add an env_sprite entity to your map.
+    Put it somewhere you can clearly see.
+    Name it "sprite1".
+    Then compile the map.
 */
 
-//      To toggle the sprite, let's make two functions.
+//  To toggle the sprite, let's make two functions.
 
 function sprite_on() {
     EntFire("sprite1", "TurnOn")
@@ -41,7 +41,7 @@ function sprite_off() {
 
 function randomLoop() {
     while (true) {
-         EntFire("sprite1", "Toggle", 0, randint(1, 10))
+        EntFire("sprite1", "Toggle", 0, randint(1, 10))
     }
 }
 /*
