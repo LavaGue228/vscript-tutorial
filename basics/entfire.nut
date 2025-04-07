@@ -29,6 +29,7 @@ EntFire() can have five parameters:
 (entity, input, inputValue, delay, activator),
 where everything is the same as in Hammer Editor,
 except for the activator - an entity we can fire output from.
+
 Whilst entity and input are necessary, all other values can be skipped
 (so it would look like (entity, input)).
 */
@@ -47,6 +48,10 @@ function randomLoop() {
 After calling, this function will output
 a toggle input to the sprite every tick, making it
 flickering after ~10 seconds.
+
+Also typing 0 to a value
+will force the compiler to skip it,
+as shown above.
 */
 
 
