@@ -9,10 +9,8 @@ a <- True
 If-Else statements are almost the same as in c++;
 the statement to check is surrounded with braces
 and the code after the statement is surrounded with curly braces.
-
-In fact, they look...
 */
-// ...like this:
+// For example:
 
 if (a == True) {
     a = False
