@@ -20,5 +20,5 @@ else {
 }
 
 /*
-If-Else is the base of all languages.
+If-Else is the base of all programming languages.
 */
