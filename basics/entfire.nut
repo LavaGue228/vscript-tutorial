@@ -9,7 +9,7 @@ Name it "sprite1".
 Then compile the map.
 */
 
-// Now... let's turn it on and off
+// To toggle the sprite, let's make two functions.
 
 function sprite_on() {
     EntFire("sprite1", "TurnOn")
