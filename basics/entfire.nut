@@ -26,9 +26,11 @@ you can toggle the sprite on and off.
 
 /*
 EntFire() can have five parameters:
-(entity*, input*, inputValue, delay, activator),
+(entity, input, inputValue, delay, activator),
 where everything is the same as in Hammer Editor,
 except for the activator - an entity we can fire output from.
+Whilst entity and input are necessary, all other values can be skipped
+(so it would look like (entity, input)).
 */
 
 /*
