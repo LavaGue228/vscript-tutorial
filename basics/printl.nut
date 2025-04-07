@@ -42,14 +42,14 @@ function some_math() {
     c = c - (a + b)
     printl("Solving equation 3")
     d = d - b / c
-    printl("All equation solved!") //Can you find why this wont display?
+    printl("All equation solved!") //Can you figure out why this wont display?
 
 }
 
 /*
     By the way, you can put
     any variable into printl()
-    and it will display normally.
+    and it will display as usual.
 */
 //  For example:
 function some_more_math() {
