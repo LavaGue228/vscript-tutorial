@@ -25,7 +25,7 @@
 */
 
 //-----------------------------
-//              WHAT IS VSCRIPT?
+//      WHAT IS VSCRIPT?
 //-----------------------------
 
 /*
@@ -54,11 +54,12 @@
             printl("Hello World")
         }
 
-        So if you have an experience in c++, this will be easy for you.
+        So if you are an experienced c++ programmer,
+        this languange will be easy for you.
 */
 
 //--------------------------------
-//              HOW VSCRIPT HELPS?
+//      HOW VSCRIPT HELPS?
 //--------------------------------
 
 /*
