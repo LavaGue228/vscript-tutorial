@@ -21,7 +21,7 @@ function sprite_off() {
 
 /*
 By calling these functions,
-you can toggle the sprite.
+you can toggle the sprite on and off.
 */
 
 /*
