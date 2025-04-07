@@ -74,23 +74,36 @@ if (a = 3) {
 
     IMPORTANT NOTE: local and constant variables are declared with the = operator.
                     Using <- for those yields a compile time error.
-                    Example: local a <- 1 (error)
-                    BUT a <- 1 (works)
+                    Example:  local a <- 1 (error)
+                        BUT:  a <- 1 (works)
 
 */
-
-
-
 /*
-There are a
+    The content of variables is divided into data types.
 
-Here's a quick list:
-> int (number)
-> str (text)
-> bool (true/false)
-> null (nothing)
-> array (list of items)
-> function (contains a code)
-> and much more that I didnt remember
-> todo: expand the list using squirrel manual :skull:
+    Here is a list of data types:
+    > int (number) - 1
+    > str (text) - "Hello Wrold"
+    > bool (true/false) - true
+    > null (nothing; also know as 0.0) - null
+    > array (contains text and numbers) - ["text1", "text2", "text3"]
+    > table (array of variables) - myTable {a = 3 b = 6}
+    > function (contains code)
+    > class ()
+
+    There are subtypes, like generator and userdata,
+    but you will rarely use them.
 */
+
+//Some examples:
+local exampleTable <- {                         // Table
+    const pi = 3.1415                           // Constant Pi
+    local array = ["test", 2, null, "Bruh404"]  // Local array
+    [9] = "nineth_key"                          // Nineth key in this table is "nineth_key"
+                                                //
+    local a = 1                                 //
+    local aa = 2                                //
+    intableFunction = function() {              //In-table function
+        return a + aa
+    }
+}

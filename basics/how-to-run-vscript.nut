@@ -29,13 +29,13 @@ function calculateRectangle(width, height) {
 /*
     To run the VScript code,
     you need to assign it to any entity.
-    But logic_script is recommended for better  organisation.
+    Though logic_script is recommended for better organisation.
 
     To assign the file, run an input to your entity:
     "RunScriptFile" "basics/how-to-run-vscript.nut"
     Then, run another input: "RunScriptCode" "calculateRectangle(5, 6)"
-
     Input may be done via button press,
     or through script_execute command.
 
+    Generally, that is it. That's how to run vscript files.
 */

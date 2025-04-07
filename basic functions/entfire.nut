@@ -1,12 +1,23 @@
+
 //-----------------------------------
 //        EntFire() tutorial!
 //-----------------------------------
 
 /*
-    Add an env_sprite entity to your map.
-    Put it somewhere you can clearly see.
-    Name it "sprite1".
-    Then compile the map.
+    EntFire() outputs an input
+    to an entity, just like in Hammer.
+
+    Unlike Hammer, EntFire() has
+    a bit more control over the input.
+*/
+
+/*
+    So now let's test the function.
+
+    Add an env_sprite entity to your map,
+    put it somewhere you can clearly see,
+    name it "sprite1",
+    and compile the map.
 */
 
 //  To toggle the sprite, let's make two functions.
