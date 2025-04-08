@@ -46,23 +46,9 @@ function sprite_off() {
 */
 
 /*
-        Using vscript, let's make a loop
-        which toggles the sprite in random time
+        You can also put variables
+        and even functions in EntFire parameters.
 */
 
-function randomLoop() {
-    while (true) {
-        EntFire("sprite1", "Toggle", 0, randint(1, 10))
-    }
-}
-/*
-        After calling, this function will output
-        a toggle input to the sprite every tick, making it
-        flickering after ~10 seconds.
-
-        Also typing 0 to a value
-        will force the compiler to skip it,
-        as shown above.
-*/
 
 
