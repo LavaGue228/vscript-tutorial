@@ -17,11 +17,14 @@
         
 
         However, if you are completely new to vscripting,
-        I recommend you going through the whole tutorial
-        in this order: [order]
+        I recommend you going through the guide step-by-step
+        in this order:
+        > basics/
+*/
 
+/*
         This particular file explains
-        what is vscript.
+        what vscript is.
 */
 
 //-----------------------------
