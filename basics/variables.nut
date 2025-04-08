@@ -33,22 +33,21 @@ number = number + 2   // number = 1 + 2 (so number = 3)
     "=" - assign
     "==" - equals to
     So something like "if (number = 1) {}" does not work
-    simply because "=" sign sets number to 1, not checks
-    if it *is* that value.
+    simply because "=" sets number to 1, not checks
+    if it is that value.
 */
 // For example:
 
 a = 3 //assigning 3 to variable a
 
-// This statement will display "Yay!"
+
 if (a == 3) {
     printl("Yay!")
-}
+} // This statement will display "Yay!" 
 
-//This statement will not display "Yay!"
 if (a = 3) {
     printl("Yay!")
-}
+} // This statement will not display "Yay!"
 
 /*
     There are 3 types of variables:
@@ -66,10 +65,10 @@ if (a = 3) {
     They can be declared using the :: scoping operator (e.g. ::variable),
     and can be manipulated throughout every vscript file.
     This is useful if you have a piece of code in one file
-    and you need to use the value in the other file.
+    and you need to take the value from the other one.
 
     Constant variables are variables that never change.
-    Also they are limited to contain only text and numbers (separately)
+    Also they are limited to contain only text or only numbers.
     To assign a constant variable, put "const" in front of one.
 
     IMPORTANT NOTE: local and constant variables are declared with the = operator.
@@ -93,6 +92,7 @@ if (a = 3) {
 
     There are subtypes, like generator and userdata,
     but you will rarely use them.
+    They are, of course, all described in [file].
 */
 
 //Some examples:
@@ -100,6 +100,7 @@ local exampleTable <- {                         // Table
     const pi = 3.1415                           // Constant Pi
     local array = ["test", 2, null, "Bruh404"]  // Local array
     [9] = "nineth_key"                          // Nineth key in this table is "nineth_key"
+    ::username <- "BillieJean444"
                                                 //
     local a = 1                                 //
     local aa = 2                                //
